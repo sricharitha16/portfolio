@@ -7,10 +7,10 @@ import './App.css';
 // } from "react-router-dom";
 
 import Nav from './component/Navbar';
+import Home from './component/Home';
 import AboutMe from './component/About';
 import Project from './component/Project';
 import Resume from './component/Resume';
-import Home from './component/Home';
 import Foot from './component/Foot';
 
 
