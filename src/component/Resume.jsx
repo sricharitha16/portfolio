@@ -22,6 +22,8 @@ import react from "../Assets/logo/react.png"
 import selenium from "../Assets/logo/selenium.png"
 import vscode from "../Assets/logo/vscode.png"
 
+import pdf from "../Assets/resume/T_SRICHARITHA.pdf"
+
 const Resume = () => {
   return (
     <div name="resume" className="resume">
@@ -98,7 +100,7 @@ const Resume = () => {
         <img src={res} height="50px" alt="logo" />
         <button className="button" >
           <a
-            href=".sricharitha16.github.io/resume/T_SRICHARITHA.pdf"
+            href={pdf}
             target="_blank"
             className="view-button"
           >
@@ -111,7 +113,7 @@ const Resume = () => {
         <img src={res} height="50px" alt="logo" />
         <button className="button">
           <a
-            href="./resume/T_SRICHARITHA.pdf"
+            href={pdf}
             download="Sricharitha_Tirukoti_Resume.pdf"
             className="download-button"
           >
