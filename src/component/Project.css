@@ -36,7 +36,7 @@ html, body {
     background-color: #dfe5e8;
 }
 .gridproj{
-    margin: 100px 20px 80px 20px;
+    margin: 80px 20px 80px 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 80px;
@@ -103,32 +103,41 @@ html, body {
 @media (max-width: 768px) {
     html, body {
         height: 100%;
-        margin: 0;
+        margin: 100;
         display: flex;
         flex-direction: column;
         background-color: #F1F6F9;
     }
     .gridproj {
         grid-template-columns: 1fr; 
-       
+        height:auto;
+        width: 100%; 
     }
+    .pic img{
+        height: 300px;
+    }
+
+.d1{
+    height: 100%;
+    width: 500px;
+}
 }
 
 /* Media query for even smaller screens (e.g., smartphones) */
 @media (max-width: 480px) {
     html, body {
         height: 100%;
-        margin: 0;
+        margin: 100;
         display: flex;
         flex-direction: column;
         background-color: #F1F6F9;
     }
     .d1 {
-        width: 50%;
+        width: 300px;
         height: 100%;
     }
     .pic{
-        height: 70px;
+        height: 100px;
     }
 
 }
