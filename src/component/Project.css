@@ -89,7 +89,7 @@ html, body {
     border-radius: 50%;
 }
 
-.pic{
+.pic img{
     display: flex;
     flex-direction: column;
     align-items: center;
